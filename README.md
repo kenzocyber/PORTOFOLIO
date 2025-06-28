@@ -1,71 +1,73 @@
-# PORTOFOLIO
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kenzo | Cyber</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLACK HAT</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background: #0a0a0a;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      font-family: sans-serif;
+      background: #000;
+      color: #eee;
       padding: 20px;
-    }
-    .logo {
-      width: 80px;
-      margin-top: 30px;
+      max-width: 360px;
+      margin: auto;
     }
     h1 {
-      font-size: 1.5em;
-      margin: 15px 0;
-      background: linear-gradient(90deg, #00ffff, #00bfff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .btn {
-      width: 90%;
-      max-width: 300px;
-      padding: 12px;
-      margin: 8px 0;
+      color: cyan;
       text-align: center;
-      border-radius: 10px;
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    h2 {
+      color: cyan;
+      font-size: 1.2rem;
+      margin-top: 1.5em;
+    }
+    ul {
+      padding-left: 1em;
+      font-size: 0.9rem;
+    }
+    a {
+      display: inline-block;
+      margin: 6px 4px;
+      padding: 6px 12px;
+      background: #111;
+      border: 1px solid cyan;
+      border-radius: 4px;
+      color: cyan;
       text-decoration: none;
-      font-weight: bold;
-      background-color: #1f1f1f;
-      border: 2px solid #00bfff;
-      color: #00ffff;
-      display: block;
-      transition: all 0.2s ease;
-      font-size: 0.9em;
-    }
-    .btn:hover {
-      background-color: #00bfff;
-      color: #fff;
-    }
-    .contact {
-      margin-top: 20px;
-      text-align: center;
-      font-size: 13px;
-      color: #aaa;
+      font-size: 0.85rem;
     }
   </style>
 </head>
 <body>
-  <img src="https://i.ibb.co/SrKxKyt/hacker-icon.png" alt="logo" class="logo">
-  <h1>Kenzo | Cyber</h1>
+  <h1>BLACK HAT</h1>
+  <p>Cyber Security Enthusiast</p>
 
-  <a href="https://github.com/kenzocyber" class="btn" target="_blank">GitHub</a>
-  <a href="https://www.instagram.com/__21chochocaramel?igsh=MWFscDg2cTVpaXU4NQ==" class="btn" target="_blank">Instagram</a>
-  <a href="https://wa.me/6283143490913" class="btn" target="_blank">WhatsApp</a>
+  <h2>Skills</h2>
+  <ul>
+    <li>Web Exploitation</li>
+    <li>Python Scripting</li>
+    <li>OSINT</li>
+    <li>Linux Terminal</li>
+    <li>Social Engineering</li>
+  </ul>
 
-  <div class="contact">
-    <p>Hubungi saya melalui WhatsApp atau Instagram</p>
-  </div>
+  <h2>Projects</h2>
+  <ul>
+    <li>KenzoScan</li>
+    <li>AnonTool</li>
+    <li>OSINTer</li>
+  </ul>
+
+  <h2>Social</h2>
+  <a href="https://github.com/kenzocyber" target="_blank">GitHub</a>
+  <a href="https://www.instagram.com/__21chochocaramel" target="_blank">Instagram</a>
+  <a href="https://wa.me/6283143490913" target="_blank">WhatsApp</a>
 </body>
 </html>
